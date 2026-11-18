@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+tools/remotion/node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Generated videos
+export/*
+!export/.gitkeep
+
+# Cache
+.cache/
+.temp/
+
+# OS
+Thumbs.db
+Desktop.ini
+# Nested repository backup
+.git-backup/
+
+# Skill archive (already extracted)
+tools/remotion/video-animasi-ringan-v2.zip
